@@ -9,6 +9,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -141,20 +142,19 @@
 </section>
 
 <!-- CONTACTO -->
-<form action="https://formsubmit.co/serviciosfreelancernorte@gmail.com" method="POST">
-
-  <input type="text" name="nombre" placeholder="Nombre" required>
-  <input type="email" name="email" placeholder="Correo" required>
-  <input type="tel" name="telefono" placeholder="Teléfono">
-  <textarea name="mensaje" rows="4" placeholder="Describe tu necesidad" required></textarea>
-
-  <!-- CONFIGURACIONES OCULTAS -->
-  <input type="hidden" name="_subject" value="Nueva cotización desde HLogisticSupport">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="table">
-
-  <button type="submit">Enviar Cotización</button>
-</form>
+<section class="contact" id="contacto">
+  <div class="container">
+    <h2>Formulario de Cotización</h2>
+    <form>
+      <form action="https://formsubmit.co/serviciosfreelancernorte@gmail.com" method="POST">
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo" required>
+      <input type="tel" placeholder="Teléfono">
+      <textarea rows="4" placeholder="Describe tu necesidad"></textarea>
+      <button type="submit">Enviar Cotización</button>
+    </form>
+  </div>
+</section>
 
 <!-- WHATSAPP -->
 <a class="whatsapp" href="https://wa.me/56949424720" target="_blank">💬</a>
@@ -167,7 +167,5 @@
 <script src="js/main.js"></script>
 </body>
 </html>
-
-
 
 
